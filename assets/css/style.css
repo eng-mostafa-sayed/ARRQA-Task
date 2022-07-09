@@ -27,9 +27,8 @@ nav {
   overflow: hidden;
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
+.scrolled {
+  background-color: rgb(160, 153, 153) !important;
 }
 
 .nav-ul {

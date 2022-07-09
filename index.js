@@ -1,6 +1,6 @@
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar-fixed-top");
-    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-  });
-});
+function toggleNav() {
+  var nav = document.getElementById("nav");
+  nav.classList.add("scrolled");
+}
+
+window.addEventListener("scroll", toggleNav);
