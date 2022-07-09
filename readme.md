@@ -1,4 +1,4 @@
-#this is task for ARRAQA
+# this is task for ARRAQA
 
 - HTML
 - css
