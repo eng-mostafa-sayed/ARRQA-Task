@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
+* {
+  font-family: Poppins;
+}
+
+.bdy {
+  background-image: url("../img/Image\ BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-color: transparent;
+  padding: 0% 0%;
+  z-index: 99;
+  /* font-family: Poppins; */
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  position: -webkit-sticky;
+  overflow: hidden;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.nav-ul {
+  list-style: null;
+  float: right;
+  padding-top: 0.5%;
+  margin-right: 65px;
+  width: 28%;
+}
+
+nav h1 {
+  display: inline-block;
+  font-size: 20pt;
+  margin-left: 60px;
+  /* font-family: Poppins; */
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 3%;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+/* this is for Sign up  */
+.hov {
+  background-color: white !important;
+  color: rgb(0, 0, 0) !important;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 0px;
+  border-radius: 20px;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+/* end of the nav bar */
+form {
+  /* width: 375px; */
+  width: 20%;
+  /* height: 510px; */
+  margin-left: 19%;
+  margin-top: 4%;
+  padding: 0% 0px;
+}
+.form-txt {
+  padding: 0% 0% 0% 0%;
+  /* font-family: Poppins; */
+}
+form input {
+  /* width: 375px; */
+  padding: 2% 0px;
+}
+
+.btn-purple {
+  background-color: rgb(145, 94, 223);
+  /* font-family: Poppins; */
+  font-size: 13pt;
+  border-radius: 2px;
+  border: 0px;
+}
+.form-foot {
+  /* font-family: Poppins; */
+  font-size: 8pt;
+  color: lightgrey;
+}
+
+.right-section {
+  width: 33%;
+  position: absolute;
+  top: 30%;
+  right: 25%;
+}
+.right-section h3 {
+  font-size: 38pt;
+}
+
+.ply-txt {
+  font-size: 14pt;
+}
+
+.right-section .ply:hover {
+  border-radius: 25px;
+  border: 0px;
+  padding: 6px;
+  background-color: rgb(145, 94, 223);
+}
+.right-section button {
+  background-color: rgb(145, 94, 223);
+}
+.right-section button:hover {
+  background-color: rgb(145, 94, 223);
+}
